@@ -40,6 +40,7 @@ canvas{
     text-align: center;
     width: 70%;
     flex-direction: column;
+    background-color: black;
 }
 
 .faces-container{
@@ -90,6 +91,7 @@ h1{
 }
 
 footer{
+    background-color: black;
     color: beige;
     display: flex;
     width: 100vw;
