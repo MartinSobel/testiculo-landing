@@ -12,6 +12,7 @@ main{
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    color: white;
 }
 
 .logo-container{
@@ -28,11 +29,21 @@ main{
 
 .text-container{
     display: flex;
-    color: white;
     margin-top: 40px;
     text-align: center;
     width: 70%;
     flex-direction: column;
+}
+
+.faces-container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.faces-container img{
+    width: 10vw;
 }
 
 .music-container{
@@ -44,15 +55,57 @@ main{
     flex-direction: column;
 }
 
+.music-container img{
+    margin-bottom: 50px;
+    width: 30vw;
+}
+
 iframe{
     margin-top: 20px;
 }
 
+.images-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images-container img{
+    width: 45vw;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
 footer{
+    color: beige;
     display: flex;
     width: 100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+}
+
+footer a{
+    color: beige;
+}
+
+.links{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .text-container{
+        width: 90%;
+    }
+
+    .images-container img{
+        width: 80vw;
+    }   
 }
