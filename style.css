@@ -41,6 +41,7 @@ canvas{
     width: 70%;
     flex-direction: column;
     background-color: black;
+    font-size: 18px;
 }
 
 .faces-container{
@@ -99,6 +100,7 @@ footer{
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+    font-size: 25px;
 }
 
 footer a{
